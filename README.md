@@ -50,7 +50,7 @@ following:
 ● Performs named entity recognition (NER)
 ● Counts the frequency of each named entity in the text
 CODE-https://www.linkedin.com/in/sagarika-shah
-🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐
+🌸🌺🌻__________________________________________________________________________________🌻🌼🌷
 pip install nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -89,7 +89,7 @@ def analyze_text(text):
 text = "Apple Inc. is a technology company headquartered in Cupertino, California. It was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne."
 result = analyze_text(text)
 print(result)
-🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐
+🌸🌺🌻___________________________________________________________________________________🌻🌼🌷
 
 3.1: PDF Processing and Table Extraction📄🔄📊
 Using Python and any library of your choice (such as Tabula, PDFplumber, etc.), write a
@@ -98,7 +98,7 @@ function that accepts a path to a PDF file and:
 ● Identifies and extracts tables from the document
 ● Identifies and extracts all headings in the document
 CODE-https://www.linkedin.com/in/sagarika-shah
-🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸
+🌸🌺🌻_____________________________________________________________________________________🌻🌼🌷
 pip install pdfplumber
 pip install tabula-py
 !pip install PyPDF2
@@ -122,4 +122,4 @@ import re
 
 headings = re.findall(r'\n(\w+)\n', extracted_text)  # Example regex pattern
 print(headings)
-🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐🌸🌺🌻🌼🌷💐
+🌸🌺🌻_____________________________________________________________________________________🌻🌼🌷
